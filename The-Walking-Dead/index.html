@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <title>Exemplo — Estrutura Básica</title>    
+  </head>
+  <body>
+    <!-- O HEADER É A PARTE SUPERIOR DO SITE, ONDE NORMALMENTE FICA O LOGO E O MENU DE NAVEGAÇÃO -->
+    <header class="site-header">
+        <!-- DIVS SÃO USADAS NA MAIORIA DAS VEZES PARA AGRUPAR ELEMENTOS E APLICAR ESTILOS -->
+        <!-- CLASS É USADA PARA AGRUPAR ELEMENTOS QUE TEM O MESMO ESTILO, PARA QUE POSSAMOS APLICAR CSS-->
+            
+        <div class="container">
+            <h1 class="fonte-titulo">The Walking Dead</h1>
+        </div>
+    </header>
+
+    <!-- O MAIN É A PARTE PRINCIPAL DO SITE, ONDE FICA O CONTEÚDO MAIS IMPORTANTE -->
+    <main class="container site-main">
+        <h1 id="textinho">Mais do que uma série sobre zumbis — The Walking Dead é um retrato intenso da sobrevivência humana em seu estado mais cru.</h1>
+
+
+        <!-- SECTION É USADA PARA AGRUPAR CONTEÚDOS RELACIONADOS, COMO SE FOSSE UMA SEÇÃO DO SITE -->
+        <!-- ID É USADO PARA IDENTIFICAR UNICAMENTE UM ELEMENTO NA PÁGINA, PARA QUE POSSAMOS ACESSÁ-LO COM CSS OU JAVASCRIPT -->
+        <section id="sobre" class="content">
+            <p id="txt" >Em um mundo devastado por um apocalipse, acompanhamos um grupo de sobreviventes liderados por Rick Grimes enquanto enfrentam não apenas hordas de mortos-vivos, mas também o lado mais sombrio das pessoas.
+
+Com cenas eletrizantes, personagens profundos e dilemas morais impactantes, a série mistura ação, drama e suspense de forma envolvente. Cada episódio prende o espectador ao mostrar que, às vezes, o verdadeiro perigo não está nos zumbis… mas nos próprios vivos.</p>
+        </section>
+    </main>
+
+    <div id="img">
+      <img id="imagem" src="images/the-walking-dead-20-anos-1h7zt6cx1acs8.webp" alt="imagem">
+    </div>
+
+    <div class="favs">
+      <p class="centraliza">Meus personagens favoritos:</p>
+    </div>
+
+    <section class="container1">
+      <div class="fav1">
+        <img src="images/daryl.png" alt="">
+                <h2>Daryl Dixon</h2>
+
+      </div>
+
+      <div class="fav1">
+        <img src="images/maggie.webp" alt="">
+        <h2>Maggie Rhe</h2>
+      </div>
+
+      <div class="fav1">
+        <img src="images/rick.webp" alt="">
+        <h2>Rick Grimes</h2>
+      </div>
+
+      <div class="fav1">
+        <img src="images/rosita.webp" alt="">
+        <h2>Rosita Espinosa</h2>
+      </div>
+    </section>
+
+
+    <footer class="site-footer">
+        <!-- O FOOTER É A PARTE INFERIOR DO SITE, ONDE NORMALMENTE FICA O COPYRIGHT E INFORMAÇÕES DE CONTATO -->
+      <div class="container">        
+          &copy; 2026 Andressa. Todos os direitos reservados.        
+      </div>
+    </footer>
+
+    <script>
+      <!-- AQUI ADICIONA-SE CÓDIGO JAVASCRIPT OU REFERÊNCIA A UM ARQUIVO JS-->
+      //alert("Bem-vindo ao site!");
+    </script>
+  </body>
+</html>
